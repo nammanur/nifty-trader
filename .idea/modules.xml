@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/NiftyTrader.iml" filepath="$PROJECT_DIR$/NiftyTrader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nifty-trader.iml" filepath="$PROJECT_DIR$/nifty-trader.iml" />
     </modules>
   </component>
 </project>
