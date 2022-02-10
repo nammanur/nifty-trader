@@ -1,0 +1,94 @@
+body {
+  font-family: "Open Sans", sans-serif; }
+
+h1, h2, h3 {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif }
+
+.nifty-menu{
+  color:aliceblue;
+}
+
+.nifty-menu:hover {
+  color: rgb(220, 229, 238);
+}
+
+header.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.2) 0%, rgba(92, 77, 66, 0.2) 100%), url("../img/bg-masthead-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+h2 {
+  color: #3046C5; }
+
+header h2 {
+  color: #CEC8FF; }
+
+site-footer {
+  background-image: linear-gradient(#CEC8FF, white);
+  padding: 20px 0; }
+
+.jumbotron {
+  padding: 30px;
+  background-image: linear-gradient(to right, #5637dd, #3046C5, #60106b);
+  color: white;
+  margin: 0; }
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px; }
+
+.col-sm-6 {
+  padding: 0px;
+}
+
+.btn-round {
+  border-radius: 3rem;
+}
+
+
+
+.navbar {
+  background-color: #da590f; }
+
+.tab-content {
+  border: 1px solid #DDD;
+  border-top: none;
+  padding: 10px; }
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.carousel {
+  border: solid #3a288d; }
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #3106f060; }
+
+.carousel-indicators {
+  bottom: -50px; }
+
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 100; }
+
+.loginModal {
+  position: absolute; }
+
+
+
+#loginModal div div .modal-header{
+  background-color: #da590f;
+  color: white; }
+
+
