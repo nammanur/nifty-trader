@@ -28,7 +28,7 @@ site-footer {
 
 .jumbotron {
   padding: 30px;
-  background-image: linear-gradient(to right, #da590f, #db9872, #913906);
+  background-image: url("../img/bg-masthead-2.jpg");
   color: white;
   margin: 0; }
 
@@ -112,7 +112,7 @@ site-footer {
   color: red;
 }
 
-.nifty {
-  background-color: #da590f;
+/* .nifty-accordion {
+  background-color: #caa962;
   color: aliceblue;
- }
+ } */

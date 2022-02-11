@@ -20,6 +20,7 @@
     <link href="css/styles.css" rel="stylesheet"/>
 </head>
 <body>
+
 <!-- Navigation-->
 <nav class="navbar navbar-expand-sm" id="mainNav">
     <a href="#" class="navbar-brand nifty-menu">
@@ -40,6 +41,20 @@
 </nav>
 
 
+<header class="jumbotron jumbotron-fluid">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-4 col-sm-3 col-md-2 align-self-center">
+                <img src="img/niftytrader.ico" class="img-fluid"/>
+            </div>
+            <div class="col">
+                <h1>Stock Trading Made Easy</h1>
+                <h2>Sky Is The Limit</h2>
+            </div>
+        </div>
+    </div>
+</header>
 <div class=" container">
     <div class="row row-content align-items-center">
         <div class="col-md-8 mx-auto">
@@ -53,29 +68,29 @@
                     <div class="carousel-item active">
                         <img class="d-block w-100" src="img/portfolio/products/FixedRateBond.jpg"
                              alt="Fixed Rate Bond"/>
-                        <div class="carousel-caption">
+                        <!-- <div class="carousel-caption">
                             <p class="d-none d-sm-block">
                                 Fixed Rate Bonds
                             </p>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="carousel-item">
                         <img class="d-block w-100" src="img/portfolio/products/FloatingBond.jpg" alt="Floating Bond"/>
-                        <div class="carousel-caption">
+                        <!-- <div class="carousel-caption">
 
                             <p class="d-none d-sm-block">
                                 Floating Rate Bond
                             </p>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="carousel-item">
                         <img class="d-block w-100" src="img/portfolio/products/ZCBond.jpg" alt="Zero Coupon Bond"/>
-                        <div class="carousel-caption">
+                        <!-- <div class="carousel-caption">
 
                             <p class="d-none d-sm-block">
                                 Zero Coupon Bond
                             </p>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#bondCarousel" role="button" data-slide="prev">
@@ -94,29 +109,38 @@
     </div>
 
 
-    <div class="row row-content align-items-center">
-        <div class="col-md-8 mx-auto">
-
-            <ul class="nav nav-tabs" role="tablist">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#fixedbond" role="tab" data-toggle="tab">Fixed Rate Bond</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#floatingbond" role="tab" data-toggle="tab">Floating Bond</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#zcbond" role="tab" data-toggle="tab">Zero Coupon Bond</a>
-                </li>
-            </ul>
-
-            <!-- Tab panes -->
-            <div class="tab-content">
-                <div role="tabpanel" class="tab-pane fade in active" id="fixedbond">Fixed Rate Bond Description</div>
-                <div role="tabpanel" class="tab-pane fade" id="floatingbond">Floating Rate Bond Desc</div>
-                <div role="tabpanel" class="tab-pane fade" id="zcbond">Zero Coupon Bond Desc</div>
-            </div>
+    <ul class="nav nav-tabs" id="bondTab" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active" id="fixedrate-tab" data-toggle="tab" href="#fixedratebond" role="tab">Fixed Rate
+                Bond</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="floatingrate-tab" data-toggle="tab" href="#floatingratebond" role="tab">Floating
+                Rate Bond</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="zerocoupon-tab" data-toggle="tab" href="#zcbond" role="tab">Zero Coupon Bond</a>
+        </li>
+    </ul>
+    <div class="tab-content" id="bondtabcontent">
+        <div class="tab-pane fade show active" id="fixedratebond" role="tabpanel"><p>A fixed rate bond is a long-term
+            debt instrument that pays a fixed coupon rate for the duration of the bond. The fixed rate is indicated in
+            the trust indenture at the time of issuance and is payable on specific dates until the bond matures. The
+            benefit of owning a fixed rate bond is that investors know with certainty how much interest they will earn
+            and for how long. As long as the bond issuer does not default or call in the bonds, the bondholder can
+            predict exactly what his return on investment will be.</p></div>
+        <div class="tab-pane fade" id="floatingratebond" role="tabpanel"><p>Floating-rate notes (FRNs) make up a
+            significant component of the U.S. investment-grade bond market. Compared with fixed-rate debt instruments,
+            floaters allow investors to benefit from a rise in interest rates since the rate on the floater adjusts
+            periodically to current market rates. Floaters are usually benchmarked against short-term rates like the Fed
+            funds rate, which is the rate the Federal Reserve Bank sets for short-term borrowing between banks.</p>
         </div>
+        <div class="tab-pane fade" id="zcbond" role="tabpanel"><p>A zero-coupon bond, also known as an accrual bond, is
+            a debt security that does not pay interest but instead trades at a deep discount, rendering a profit at
+            maturity, when the bond is redeemed for its full face value.</p></div>
     </div>
+</div>
+</div>
 </div>
 <!-- Tabs content -->
 
