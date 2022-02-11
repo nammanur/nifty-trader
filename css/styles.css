@@ -51,6 +51,11 @@ site-footer {
   border-radius: 3rem;
 }
 
+.btn-info{
+  background-color: #da590f;
+} 
+
+
 
 
 .navbar {
@@ -91,4 +96,7 @@ site-footer {
   background-color: #da590f;
   color: white; }
 
+  #registerModal div div .modal-header{
+    background-color: #da590f;
+    color: white; }
 
