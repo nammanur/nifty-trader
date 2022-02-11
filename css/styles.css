@@ -4,13 +4,7 @@ body {
 h1, h2, h3 {
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif }
 
-.nifty-menu{
-  color:aliceblue;
-}
 
-.nifty-menu:hover {
-  color: rgb(220, 229, 238);
-}
 
 header.masthead {
   padding-top: 10rem;
@@ -26,7 +20,7 @@ h2 {
   color: #3046C5; }
 
 header h2 {
-  color: #CEC8FF; }
+  color: aliceblue; }
 
 site-footer {
   background-image: linear-gradient(#CEC8FF, white);
@@ -34,7 +28,7 @@ site-footer {
 
 .jumbotron {
   padding: 30px;
-  background-image: linear-gradient(to right, #5637dd, #3046C5, #60106b);
+  background-image: linear-gradient(to right, #da590f, #db9872, #913906);
   color: white;
   margin: 0; }
 
@@ -100,3 +94,25 @@ site-footer {
     background-color: #da590f;
     color: white; }
 
+
+.nifty-menu{
+  color:aliceblue;
+}
+
+.nifty-menu:hover {
+  color: rgb(220, 229, 238);
+}
+
+
+.nifty-up{
+  color:green;
+}
+
+.nifty-down{
+  color: red;
+}
+
+.nifty {
+  background-color: #da590f;
+  color: aliceblue;
+ }
