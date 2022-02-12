@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b40c34b-659a-4224-a41a-c1fdca2dc80e" name="Default Changelist" comment="">
+    <list default="true" id="6b40c34b-659a-4224-a41a-c1fdca2dc80e" name="Default Changelist" comment="about and interest rate derivatives done">
+      <change afterPath="$PROJECT_DIR$/Nifty Trader.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BondTrading.html" beforeDir="false" afterPath="$PROJECT_DIR$/BondTrading.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cryptocurrencies.html" beforeDir="false" afterPath="$PROJECT_DIR$/Cryptocurrencies.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EquitiesTrading.html" beforeDir="false" afterPath="$PROJECT_DIR$/EquitiesTrading.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/InterestRateDerivative.html" beforeDir="false" afterPath="$PROJECT_DIR$/InterestRateDerivative.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aboutus.html" beforeDir="false" afterPath="$PROJECT_DIR$/aboutus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +72,21 @@
       <option name="project" value="LOCAL" />
       <updated>1644684915220</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="about and interest rate derivatives done">
+      <created>1644691597277</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1644691597277</updated>
+    </task>
+    <task id="LOCAL-00007" summary="about and interest rate derivatives done">
+      <created>1644691619490</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1644691619490</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
