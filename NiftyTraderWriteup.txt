@@ -1,0 +1,40 @@
+Nity Trader
+1. Introduction
+Nifty Trader is a trading platform which will help users trade various kinds of financial instruments like equities, bonds, derivatives, options, cryptocurrencies.
+The idea is to build highly responsive web page following the principle of mobile first using HTML, CSS, Javacript and Bootstrap.
+
+2. Design and Implementation
+
+Basic web page design consists of an index.html which has a nav bar with links for About Page, Portfolio Section, Contact and Login.
+Portfolio Section consists of thumbnails for various class of financial instruments which the trading platform allows to trade.
+The thumbnails are laid out using bootstrap container, row and column based grid.
+Clicking on each of the thumbnail will take you to a page describing various financial instruments within the class.
+For instance clicking on Bond thumbnail will take you to BondTrading.html which has description of various kinds of Bonds the users can trade.
+Below that is a Contact section which lets the user contact the owner of the site/company by leaving a message and contact details.
+Clicking on the login link takes the user to a bootstrap modal dialog which lets the user enter username and password.
+It also allows first time users to register which in turn takes the user to another bootstrap modal dialog where they input user details.
+
+
+Clicking on Equities on the portfolio, takes the user to Equities Trading page. The page has a jumbotron with the site image on the top.
+Below that one would find a Bootstrap's collapse accordion describing various kinds of equities trading.
+
+Clicking on Bond Trading thumbnail takes the user to Bond Trading page which has a carousel of various types of bonds.
+There is a button at the lower right corner which toggles between play and pause. Play and pause functionality is controlled by JQuery.
+Below the carousel there is a tab panel which describes each kind of bond in a separate tab.
+
+Clicking on Cryptocurrencies takes the user to a page which has information on current prices of various cryptocurrencies and whether the price is up or down.
+The information is presented in tabular form using a hover table of Bootstrap.
+
+Interest Rate Derivatives page presents various kinds of IRDs and the description is done using a card for each kind of IRD.
+
+
+
+
+About Page consists of description of the team
+
+Conclusions:
+
+Building a HTML/CSS/Javascript ground up website with the help of Bootstrap is a huge learning experience.
+Obviously, lack of instructions from anyone makes you take your own decisions. That comes with its own set of challenges.
+Basically each page uses different kind of components. That way user experience in each page is different and not dull. That's the best part.
+Login dialog is available only on index.html. I couldn't figure out how to connect to loginDialog in the index.html from other page. That is a shortcoming. 
