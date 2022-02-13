@@ -22,20 +22,23 @@
     <body>
         <!-- Navigation-->
         <nav class="navbar navbar-expand-sm" id="mainNav">
-            <a href="#" class="navbar-brand nifty-menu">
+          <div class="container m-0">
+            <a href="#" class="navbar-brand nifty-menu order-md-first">
                 <img src="/img/niftytrader.ico" height="28" alt="Nifty Trader"> Nifty Trader
             </a>
-            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <button type="button" class="navbar-toggler icon-bar" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
+              <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item"><a class="nav-link nifty-menu" href="./aboutus.html">About</a></li>
                         <li class="nav-item"><a class="nav-link nifty-menu" href="#portfolio">Portfolio</a></li>
                         <li class="nav-item"><a class="nav-link nifty-menu" href="#contact">Contact</a></li>
                         <li class="nav-item">
-                            <span class="navbar-text ml-auto nifty-menu"><a role="button" data-toggle="modal" data-target="#loginModal">Login</a></span></li>
+                            <a class="nav-link nifty-menu" data-toggle="modal" data-target="#loginModal">Login</a></li>
                     </ul>
-
+                  </div>
+            </div>
         </nav>
         <div class="modal fade" id="loginModal" tabindex="-1" role="dialog">
             <div class="modal-dialog modal-dialog-centered" role="document">
@@ -188,7 +191,7 @@
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8 col-xl-6 text-center">
-                        <h2 class="mt-0">Please Leave a Message</h2>
+                        <h2 class="mt-3">Please Leave a Message</h2>
                         <hr class="divider" />
                         <p class="text-muted mb-5">Have questions about opening a trading account? Send us a messages and we will get back to you as soon as possible!</p>
                     </div>

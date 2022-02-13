@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b40c34b-659a-4224-a41a-c1fdca2dc80e" name="Default Changelist" comment="">
+    <list default="true" id="6b40c34b-659a-4224-a41a-c1fdca2dc80e" name="Default Changelist" comment="Added footers, hamburger menu. fixed spacing on portfolio section">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nifty Trader.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Nifty Trader.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nifty Trader.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Nifty Trader.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BondTrading.html" beforeDir="false" afterPath="$PROJECT_DIR$/BondTrading.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cryptocurrencies.html" beforeDir="false" afterPath="$PROJECT_DIR$/Cryptocurrencies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EquitiesTrading.html" beforeDir="false" afterPath="$PROJECT_DIR$/EquitiesTrading.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestRateDerivative.html" beforeDir="false" afterPath="$PROJECT_DIR$/InterestRateDerivative.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aboutus.html" beforeDir="false" afterPath="$PROJECT_DIR$/aboutus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644692165707</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="about and interest rate derivatives done">
+      <created>1644717460146</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1644717460146</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,6 +146,7 @@
     <MESSAGE value="equities trading work in progress" />
     <MESSAGE value="about and interest re" />
     <MESSAGE value="about and interest rate derivatives done" />
-    <option name="LAST_COMMIT_MESSAGE" value="about and interest rate derivatives done" />
+    <MESSAGE value="Added footers, hamburger menu. fixed spacing on portfolio section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added footers, hamburger menu. fixed spacing on portfolio section" />
   </component>
 </project>
